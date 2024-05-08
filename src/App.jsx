@@ -11,7 +11,7 @@ function App() {
     const orbitType = satData.filter((newSatDisplay) => {
       return newSatDisplay.orbitType === currentType;
     });
-    setSat(orbitTypes);
+    setSat(orbitType);
   }
   return (
     <div>
