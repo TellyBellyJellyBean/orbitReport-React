@@ -18,13 +18,4 @@ const Buttons = ({ filterByType, setSat, orbitTypes }) => {
       )};
 
 
-// {satData.map((name, index) => {
-//   return (
-//     <div>
-//       <button>
-//         onClick={()=> setSat(name)} key ={index}
-//       </button>
-//     </div>
-//   )}
-
 export default Buttons;
